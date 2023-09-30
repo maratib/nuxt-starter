@@ -6,6 +6,9 @@
 </template>
 
 <script setup lang="ts">
+useHead({
+  title: 'Admin Movies'
+})
 definePageMeta({
   layout: 'admin',
 });

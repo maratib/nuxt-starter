@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Admin layout</h1>
+    <Header />
     <div class="container mx-auto">
       <slot />
     </div>
@@ -8,6 +8,8 @@
 </template>
 
 <script lang="ts" setup>
+import Header from '~/components/admin/Header.vue';
+
 
 </script>
 
